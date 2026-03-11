@@ -10,13 +10,15 @@ Creamos un Codespaces, clic en Code -> Codespace -> Create codespace on master.
 
 En el terminal de Codespaces ejecuta este comando para instalar las librerías necesarias para el curso:
 
-Paso 1 : Instalar
+Paso 1 : Crear API KEy en openAI
 
-Crear API KEy en openAI:
 Luego entra directamente a:
 https://platform.openai.com/api-keys
 Ahí verás la sección API Keys
 ![alt text](image.png)
+
+Crea y copia tu API Key
+![alt text](image-1.png)
 
 Paso 2 : Instalar
 
