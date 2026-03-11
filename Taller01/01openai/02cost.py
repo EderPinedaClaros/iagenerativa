@@ -12,6 +12,10 @@ client = OpenAI()
 def openai_api_calculate_cost(usage, model):
 
     pricing = {
+        'gpt-4.1-mini': {
+            'prompt': 0.0003,
+            'completion': 0.0012
+        },
         'gpt-3.5-turbo': {
             'prompt': 0.0010,
             'completion': 0.002
@@ -73,4 +77,4 @@ data_usage = {
 
 print("data_usage:",data_usage)
 
-# openai_api_calculate_cost(data_usage, model_openai)
+openai_api_calculate_cost(data_usage, model_openai)
