@@ -10,24 +10,16 @@ Creamos un Codespaces, clic en Code -> Codespace -> Create codespace on master.
 
 En el terminal de Codespaces ejecuta este comando para instalar las librerías necesarias para el curso:
 
-Clase 1 : Instalar
+Paso 1 : Instalar
 
-pip install openai streamlit tiktoken Pillow sentence_transformers
-python -m pip install --upgrade pip
-echo "Completado"
+Crear API KEy en openAI:
+Luego entra directamente a:
+https://platform.openai.com/api-keys
+Ahí verás la sección API Keys
+![alt text](image.png)
 
-Clase 2 : Instalar
+Paso 2 : Instalar
 
-pip install langchain==0.1.0 langchain_openai replicate pinecone-client pypdf unstructured[pdf] pydub boto3 
-Clase 3 : Instalar
-
-pip install gradio google-search-results langchainhub numexpr langchain_experimental faiss-cpu qdrant-client faiss-cpu google-cloud-storage tabulate sqlalchemy sqlalchemy-bigquery google-cloud-bigquery google-cloud-bigquery-storage
-En el repositorio no se podrán subir cambios, para descargar los cambios ejecutar estos dos comandos en el terminal de Codespaces:
-
-git checkout -f
-git pull
-Videos :
-
-Clase 1 (15 de enero) : https://youtu.be/fG3IOR_Onmg
-Clase 2 (17 de enero) : https://youtu.be/hKm5BBoeWtc
-Clase 3 (19 de enero) : Pendiente
+	pip install openai streamlit tiktoken Pillow sentence_transformers
+	python -m pip install --upgrade pip
+	echo "Completado"
