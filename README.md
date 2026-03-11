@@ -17,9 +17,9 @@ En el terminal de Codespaces ejecuta este comando para instalar las librerías n
 Luego entra directamente a:
 https://platform.openai.com/api-keys
 Ahí verás la sección API Keys
-![alt text](image.png)
+![alt text](./images/image.png)
 Crea y copia tu API Key
-![alt text](image-1.png)
+![alt text](./images/image-1.png)
 
 ## Paso 3 : Instalar librerias en codespace
 
