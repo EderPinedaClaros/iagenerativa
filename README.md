@@ -14,7 +14,7 @@ El taller se divide en las siguientes sesiones:
 
 Para iniciar el proceso de aprendizaje, comenzaremos habilitando nuestro ambiente de trabajo. Para ello, seguiremos los siguientes pasos:
 
-## Paso 1 : Habilitar espacio de trabajo
+### Paso 1 : Habilitar espacio de trabajo
 
 Codespaces es un entorno de desarrollo instantáneo basado en la nube que usa un contenedor para proporcionar lenguajes comunes, herramientas y utilidades para el desarrollo.
 
@@ -26,7 +26,7 @@ Creamos un Codespaces, clic en Code -> Codespace -> Create codespace on master.
 
 En el terminal de Codespaces ejecuta este comando para instalar las librerías necesarias para el curso:
 
-## Paso 2 : Crear API KEy en openAI
+### Paso 2 : Crear API KEy en openAI
 
 Luego entra directamente a:
 https://platform.openai.com/api-keys
@@ -35,8 +35,9 @@ Ahí verás la sección API Keys
 Crea y copia tu API Key
 ![alt text](./images/image-1.png)
 
-## Paso 3 : Instalar librerias en codespace
+### Paso 3 : Instalar librerias en codespace
 
 	pip install openai streamlit tiktoken Pillow sentence_transformers
 	python -m pip install --upgrade pip
 	echo "Completado"
+
