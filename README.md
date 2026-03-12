@@ -1,5 +1,19 @@
 # Taller : Creando aplicaciones de Inteligencia Artificial Generativa
 
+El objetivo de este taller es construir una línea de tiempo que permita comprender la evolución de la inteligencia
+artificial, desde los fundamentos de la estadística hasta las
+arquitecturas agénticas modernas. Esto ayudará a entender cómo han evolucionado los modelos y 
+las técnicas hasta llegar a los sistemas actuales de IA generativa.
+
+El taller se divide en las siguientes sesiones:
+
+- **Sesión 01:** IA Generativa + Embeddings  
+- **Sesión 02:** RAG + LangChain  
+- **Sesión 03:** Agentes y Multiagentes  
+- **Sesión 04:** Taller práctico de agentes con AWS, GCP y Azure
+
+Para iniciar el proceso de aprendizaje, comenzaremos habilitando nuestro ambiente de trabajo. Para ello, seguiremos los siguientes pasos:
+
 ## Paso 1 : Habilitar espacio de trabajo
 
 Codespaces es un entorno de desarrollo instantáneo basado en la nube que usa un contenedor para proporcionar lenguajes comunes, herramientas y utilidades para el desarrollo.
