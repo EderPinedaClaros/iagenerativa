@@ -1,12 +1,19 @@
 import streamlit as st
 from openai import OpenAI
 from PIL import Image
+import os
 
 st.set_page_config(page_title = "Chatbot usando la API de OpenAI", page_icon = "😉")
 
-#export OPENAI_API_KEY="TU_KEY"
+#antes de ejecutar el streamlit run 
+# por consola poner este codigo export OPENAI_API_KEY="TU_KEY"
 
-client = OpenAI()
+
+client = OpenAI(
+    api_key=os.getenv("OPENAI_API_KEY")
+)
+
+#client = OpenAI()
 
 with st.sidebar:
 
