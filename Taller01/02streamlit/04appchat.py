@@ -5,7 +5,8 @@ import os
 
 st.set_page_config(page_title = "Chatbot usando la API de OpenAI", page_icon = "😉")
 
-#antes de ejecutar el streamlit run 
+# instrucciones
+# antes de ejecutar el streamlit run 
 # por consola poner este codigo export OPENAI_API_KEY="TU_KEY"
 
 
