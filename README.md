@@ -35,9 +35,20 @@ Ahí verás la sección API Keys
 Crea y copia tu API Key
 ![alt text](./images/image-1.png)
 
-### Paso 3 : Instalar librerias en codespace
+### Paso 3: Instalación de librerias
+
+Clase 1: Instalar librerias en codespace
 
 	pip install openai streamlit tiktoken Pillow sentence_transformers
 	python -m pip install --upgrade pip
 	echo "Completado"
+
+Clase 2 : Instalar
+
+	pip install langchain==0.1.0 langchain_openai replicate pinecone-client pypdf unstructured[pdf] pydub boto3 
+
+En el repositorio no se podrán subir cambios, para descargar los cambios ejecutar estos dos comandos en el terminal de Codespaces:
+
+	git checkout -f
+	git pull
 
