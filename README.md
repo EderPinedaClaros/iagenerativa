@@ -45,7 +45,17 @@ Clase 1: Instalar librerias en codespace
 
 Clase 2 : Instalar
 
-	pip install langchain==0.1.0 langchain_openai replicate pinecone-client pypdf unstructured[pdf] pydub boto3 
+	pip install -U pip setuptools wheel
+	pip install replicate pypdf pydub boto3 
+	pip uninstall -y langchain langchain-core langchain-openai langsmith langgraph langchain-community
+    pip install "langchain" "langchain-openai"
+    pip install langchain-community
+	pip install langchain-text-splitters
+	pip install -U langchain-pinecone
+	pip install -U langchain-classic
+	pip install -U langchain-pinecone
+	pip install -U faiss-cpu
+	pip install -U langchain-qdrant qdrant-client
 
 En el repositorio no se podrán subir cambios, para descargar los cambios ejecutar estos dos comandos en el terminal de Codespaces:
 
