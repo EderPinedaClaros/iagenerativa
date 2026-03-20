@@ -53,7 +53,6 @@ Clase 2 : Instalar
 	pip install langchain-text-splitters
 	pip install -U langchain-pinecone
 	pip install -U langchain-classic
-	pip install -U langchain-pinecone
 	pip install -U faiss-cpu
 	pip install -U langchain-qdrant qdrant-client
 

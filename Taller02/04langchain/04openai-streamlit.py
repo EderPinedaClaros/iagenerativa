@@ -11,7 +11,7 @@ with st.sidebar:
 
     st.title("Usando la API de OpenAI con Streamlit y Langchain")
 
-    image = Image.open('logos.png')
+    image = Image.open('./img/logos.png')
     st.image(image, caption = 'OpenAI, Langchain y Streamlit')
 
     st.markdown(
@@ -46,8 +46,8 @@ def get_response_openai(prompt):
         model_name = model,
         temperature = 0
     )
-
-    return llm.predict(prompt)
+    response = llm.invoke(prompt)
+    return response.content
 
 #Si no existe la variable messages, se crea la variable y se muestra por defecto el mensaje de bienvenida al chatbot.
 if "messages" not in st.session_state.keys():
