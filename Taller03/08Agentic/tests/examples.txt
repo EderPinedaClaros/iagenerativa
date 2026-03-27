@@ -1,0 +1,6 @@
+Create an empy file with name tasks.txt
+Create a new file called tasksdb.csv
+Add a new entry to the file tasks.txt with Name LocalAgentTest and Value 2026
+Insert a new row into file tasksdb.csv with Name TestUser and Value 42
+
+Now move the file tasks.txt to folder processed
